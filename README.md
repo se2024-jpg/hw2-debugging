@@ -1,7 +1,7 @@
 ![MIT License](https://img.shields.io/badge/license-MIT-yellow.svg)
 ![Python Badge](https://img.shields.io/badge/language-Python-blue?style=flat&logo=python)
 ![Linux Badge](https://img.shields.io/badge/platform-linux-green?style=flat&logo=linux)
-![Test_Badge](https://github.com/se2024-jpg/hw2-debugginghw1-BeautifulRepo/actions/workflows/pytest_workflow.yml/badge.svg)
+![Test_Badge](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pytest_workflow.yml/badge.svg)
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/pylint-dev/pylint)
 [![Checked with pyright](https://microsoft.github.io/pyright/img/pyright_badge.svg)](https://microsoft.github.io/pyright/)
