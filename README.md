@@ -3,7 +3,7 @@
 ![Linux Badge](https://img.shields.io/badge/Platform-Linux-green?style=flat&logo=linux)
 ![Test_Badge](https://github.com/se2024-jpg/hw1-BeautifulRepo/actions/workflows/python-app.yml/badge.svg)
 ![Code_coverage](https://github.com/se2024-jpg/hw1-BeautifulRepo/blob/main/templates/test_coverage.svg)
-# hw2-debugging - Software Testing and Debugging
+# hw2-debugging
 
 ## Overview
 This homework assignment focuses on improving the `mergeSort` implementation, applying static analysis tools, and writing test cases to ensure the code functions correctly. The tasks include debugging, checking code style, and setting up automated testing using pytest.
