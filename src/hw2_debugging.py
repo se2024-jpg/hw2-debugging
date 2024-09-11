@@ -2,10 +2,10 @@
 This module implements the merge sort algorithm.
 
 It includes two functions:
-1. merge_sort: A recursive function to sort an array.
-2. recombine: A helper function that merges two sorted arrays.
+1. `merge_sort`: A recursive function to sort an array.
+2. `recombine`: A helper function that merges two sorted arrays.
 
-The module also demonstrates sorting a random array using merge_sort.
+The module also demonstrates sorting a random array using `merge_sort`.
 """
 
 import random
@@ -60,4 +60,4 @@ arr = random.sample(range(1, 100), 20)
 arr_out = merge_sort(arr)
 
 # Fix print statement flush error, ensuring flush is explicitly mentioned if needed
-print(arr_out, flush=True)
+print(arr_out, flush=True)
