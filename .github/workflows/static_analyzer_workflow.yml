@@ -25,7 +25,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
     - name: Show autopep8 changes
-      run: autopep8 --in-place --aggressive --aggressive --recursive src/ || echo "autopep8 finished with warnings"
+      run: autopep8 --diff --aggressive --aggressive --recursive src/ || echo "autopep8 finished with warnings"
 
     - name: Run pylint
       run: pylint src/ || echo "Pylint reported issues"
