@@ -8,10 +8,10 @@
 # HW2-Debugging
 
 ## Overview
-This homework assignment focuses on improving the `mergeSort` implementation, applying static analysis tools, and writing test cases to ensure the code functions correctly. The tasks include debugging, checking code style, and setting up automated testing using pytest.
+This homework assignment focuses on improving the `merge_sort` implementation, applying static analysis tools, and writing test cases to ensure the code functions correctly. The tasks include debugging, checking code style, and setting up automated testing using pytest.
 
 ## Objectives
-- Fix the faulty implementation of `mergeSort` in `hw2_debugging.py`.
+- Fix the faulty implementation of `merge_sort` in `hw2_debugging.py`.
 - Apply static analysis tools to improve code quality.
-- Write test cases to verify the functionality of the `mergeSort` algorithm.
+- Write test cases to verify the functionality of the `merge_sort` algorithm.
 - Configure continuous integration to run tests and analysis tools automatically.
