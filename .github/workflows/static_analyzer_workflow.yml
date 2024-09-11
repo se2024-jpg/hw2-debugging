@@ -1,0 +1,42 @@
+name: Python Code Quality
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  code-quality:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install autopep8 pylint pyright
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    - name: Run autopep8
+      run: autopep8 --in-place --aggressive --aggressive --recursive src/
+
+    - name: Run pylint
+      run: pylint src/
+
+    - name: Run pyright
+      run: pyright src/
+
+    - name: Commit changes
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+        git commit -am "Apply autopep8 fixes" || echo "No changes to commit"
+        git push
+      if: github.ref == 'refs/heads/main'
