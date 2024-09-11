@@ -3,6 +3,9 @@
 ![Linux Badge](https://img.shields.io/badge/Platform-Linux-green?style=flat&logo=linux)
 ![Test_Badge](https://github.com/se2024-jpg/hw1-BeautifulRepo/actions/workflows/python-app.yml/badge.svg)
 ![Code_coverage](https://github.com/se2024-jpg/hw1-BeautifulRepo/blob/main/templates/test_coverage.svg)
+[![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
+[![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/pylint-dev/pylint)
+[![Checked with pyright](https://microsoft.github.io/pyright/img/pyright_badge.svg)](https://microsoft.github.io/pyright/)
 # HW2-Debugging
 
 ## Overview
