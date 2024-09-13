@@ -1,0 +1,18 @@
+Auto-excluding **/node_modules
+Auto-excluding **/__pycache__
+Auto-excluding **/.*
+Search paths for file:///workspaces/hw2-debugging
+  /home/codespace/.cache/pyright-python/1.1.380/node_modules/pyright/dist/typeshed-fallback/stdlib
+  /workspaces/hw2-debugging
+  /workspaces/hw2-debugging/src
+  /workspaces/hw2-debugging/typings
+  /home/codespace/.cache/pyright-python/1.1.380/node_modules/pyright/dist/typeshed-fallback/stubs/...
+  /home/codespace/.python/current/lib/python3.12
+  /home/codespace/.python/current/lib/python3.12/lib-dynload
+  /home/codespace/.local/lib/python3.12/site-packages
+  /home/codespace/.python/current/lib/python3.12/site-packages
+Found 2 source files
+Heap stats: total_memory_size=7930MB, total_free_size=6069MB, total_heap_size=74MB, used_heap_size=47MB, cross_worker_used_heap_size=47MB, total_physical_size=72MB, total_available_size=2048MB, heap_size_limit=2096MB
+pyright 1.1.380
+0 errors, 0 warnings, 0 informations 
+Completed in 1.178sec

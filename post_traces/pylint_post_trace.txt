@@ -1,0 +1,6 @@
+************* Module hw2_debugging
+src/hw2_debugging.py:37:0: C0303: Trailing whitespace (trailing-whitespace)
+
+------------------------------------------------------------------
+Your code has been rated at 9.69/10 (previous run: 9.69/10, +0.00)
+
