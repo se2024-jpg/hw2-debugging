@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GH_PAT }}
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -24,67 +26,29 @@ jobs:
         pip install autopep8 pylint pyright
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    - name: Show autopep8 changes
-      run: autopep8 --diff --aggressive --aggressive --recursive src/ || echo "autopep8 finished with warnings"
+    - name: Apply autopep8 formatting
+      run: |
+        autopep8 --in-place --aggressive --aggressive --recursive src/
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git diff --staged --exit-code || git commit -m "Apply autopep8 formatting"
+        git push
 
     - name: Run pylint
       run: pylint src/ || echo "Pylint reported issues"
 
     - name: Run pyright
       run: pyright src/ || echo "Pyright reported issues"
-      
-    - name: Set up Python
+
+    - name: Pylint GitHub Action
       uses: Silleellie/pylint-github-action@v2
       with:
-        # Path of the package(s) or python file(s) to lint, relative to the repository root. 
-        # If more than one package (or python file) should be linted, simply specify all of them 
-        # with the multi-line notation like so:
-        # lint-path: |
-        #   src
-        #   other_src
-        #   main.py
-        #   ...
-        # 
-        # Required
         lint-path: src
-        
-        # Version of the Python interpreter which will install all requirements of your project 
-        # and lint the package(s) or python file(s) specified with the `lint-path` argument
-        #
-        # Required
         python-version: 3.9
-    
-        # Path of the README.md to update with the pylint badge, relative to the repository root.
-        #
-        # Optional, Default: README.md
         readme-path: README.md
-    
-        # Text to display in the badge
-        #
-        # Optional, Default: PyLint
         badge-text: PyLint
-    
-        # Color of the badge for pylint scores < 5.
-        # Hex, rgb, rgba, hsl, hsla and css named colors can all be used
-        #
-        # Optional, Default: red
         color-bad-score: red
-    
-        # Color of the badge for pylint scores in range [5,8).
-        # Hex, rgb, rgba, hsl, hsla and css named colors can all be used
-        #
-        # Optional, Default: orange
         color-ok-score: orange
-    
-        # Color of the badge for pylint scores in range [8,10).
-        # Hex, rgb, rgba, hsl, hsla and css named colors can all be used
-        #
-        # Optional, Default: yellow
         color-good-score: yellow
-    
-        # Color of the badge for pylint scores == 10.
-        # Hex, rgb, rgba, hsl, hsla and css named colors can all be used
-        #
-        # Optional, Default: brightgreen
         color-perfect-score: brightgreen
-    
