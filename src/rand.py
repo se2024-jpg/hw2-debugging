@@ -7,6 +7,7 @@ between 1 and 20 using the `shuf` command-line utility.
 
 import subprocess
 
+
 def random_array(arr):
     """
     Fills the given list with random integers between 1 and 20.
@@ -18,6 +19,8 @@ def random_array(arr):
         # Running the subprocess command
         result = subprocess.run(["shuf", "-i", "1-20", "-n", "1"],
                                 capture_output=True, text=True, check=True)
-        # Convert the output to integer, ensuring to strip any trailing newlines or spaces
-        arr[i] = int(result.stdout.strip(), base=10)  # Need to specify base as 10
+        # Convert the output to integer, ensuring to strip any trailing
+        # newlines or spaces
+        # Need to specify base as 10
+        arr[i] = int(result.stdout.strip(), base=10)
     return arr
