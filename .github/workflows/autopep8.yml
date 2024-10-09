@@ -39,5 +39,5 @@ jobs:
       - name: Static analysis using autopep8 
         if: success() || failure()
         run: |         
-          autopep8 src/hw2_debugging.py --aggressive --diff
-          autopep8 src/rand.py --aggressive --diff
+          autopep8 ./src/hw2_debugging.py --aggressive --diff
+          autopep8 ./src/rand.py --aggressive --diff
