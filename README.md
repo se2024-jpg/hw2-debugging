@@ -1,15 +1,14 @@
 ![MIT License](https://img.shields.io/badge/license-MIT-yellow.svg)
 ![Python Badge](https://img.shields.io/badge/language-Python-blue?style=flat&logo=python)
 ![Linux Badge](https://img.shields.io/badge/platform-linux-green?style=flat&logo=linux)
-![Test_Badge](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pytest_workflow.yml/badge.svg)
+![Test_Badge](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pytest_workflow.yml/badge.svg?event=push_request)
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/pylint-dev/pylint)
 [![Checked with pyright](https://microsoft.github.io/pyright/img/pyright_badge.svg)](https://microsoft.github.io/pyright/)
-![pylint](https://img.shields.io/badge/PyLint-10.00-brightgreen?logo=python&logoColor=white)
-
 [![Pylint](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pylint.yml/badge.svg)](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pylint.yml)
 [![Pyright](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pyflakes.yml/badge.svg)](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pyflakes.yml)
 [![Autopep8](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/autopep8.yml/badge.svg)](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/autopep8.yml)
+[![Pylint](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pylint.yml/badge.svg)](https://img.shields.io/badge/PyLint-10.00-brightgreen?logo=python&logoColor=white)
 # HW2-Debugging
 
 ## Overview
