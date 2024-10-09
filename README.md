@@ -9,7 +9,7 @@
 
 [![Pylint](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pylint.yml/badge.svg)](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pylint.yml)
 [![Pyright](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pyflakes.yml/badge.svg)](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pyflakes.yml)
-[![Autopep8](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/autopep8.yml/badge.svg)](https://github.com/se2024-jpg/hw2-debugging /actions/workflows/autopep8.yml)
+[![Autopep8](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/autopep8.yml/badge.svg)](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/autopep8.yml)
 # HW2-Debugging
 
 ## Overview
