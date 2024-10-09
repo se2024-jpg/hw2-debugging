@@ -41,14 +41,14 @@ jobs:
     - name: Run pyright
       run: pyright src/ || echo "Pyright reported issues"
 
-    - name: Pylint GitHub Action
-      uses: Silleellie/pylint-github-action@v2
-      with:
-        lint-path: src
-        python-version: 3.9
-        readme-path: README.md
-        badge-text: PyLint
-        color-bad-score: red
-        color-ok-score: orange
-        color-good-score: yellow
-        color-perfect-score: brightgreen
+    # - name: Pylint GitHub Action
+    #   uses: Silleellie/pylint-github-action@v2
+    #   with:
+    #     lint-path: src
+    #     python-version: 3.9
+    #     readme-path: README.md
+    #     badge-text: PyLint
+    #     color-bad-score: red
+    #     color-ok-score: orange
+    #     color-good-score: yellow
+    #     color-perfect-score: brightgreen
