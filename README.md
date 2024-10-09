@@ -6,6 +6,10 @@
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/pylint-dev/pylint)
 [![Checked with pyright](https://microsoft.github.io/pyright/img/pyright_badge.svg)](https://microsoft.github.io/pyright/)
 ![pylint](https://img.shields.io/badge/PyLint-10.00-brightgreen?logo=python&logoColor=white)
+
+[![Pylint](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pylint.yml/badge.svg)](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pylint.yml)
+[![Pyright](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pyflakes.yml/badge.svg)](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pyflakes.yml)
+[![Autopep8](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/autopep8.yml/badge.svg)](https://github.com/se2024-jpg/hw2-debugging /actions/workflows/autopep8.yml)
 # HW2-Debugging
 
 ## Overview
@@ -16,3 +20,8 @@ This homework assignment focuses on improving the `merge_sort` implementation, a
 - Apply static analysis tools to improve code quality.
 - Write test cases to verify the functionality of the `merge_sort` algorithm.
 - Configure continuous integration to run tests and analysis tools automatically.
+
+## Contributors
+- Girish G N (ggopala4)
+- Joel Jogy George (jjgeorg2)
+- Pravallika Vasireddy (pvasire2)
