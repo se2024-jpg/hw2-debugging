@@ -4,9 +4,10 @@
 [![Github Closed Issues](https://img.shields.io/github/issues-closed-raw/se2024-jpg/hw2-debugging)](https://github.com/se2024-jpg/hw2-debugging/issues?q=is%3Aissue+is%3Aclosed)
 [![Github Pull Requests](https://img.shields.io/github/issues-pr/se2024-jpg/hw2-debugging)](https://github.com/se2024-jpg/hw2-debugging/pulls)
 [![Test Badge](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pytest_workflow.yml/badge.svg)](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pytest_workflow.yml)
+[![Pylint](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pylint.yml/badge.svg)](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pylint.yml)
 [![Pyright](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pyflakes.yml/badge.svg)](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pyflakes.yml)
 [![Autopep8](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/autopep8.yml/badge.svg)](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/autopep8.yml)
-[![Pylint](https://github.com/se2024-jpg/hw2-debugging/actions/workflows/pylint.yml/badge.svg)](https://img.shields.io/badge/PyLint-10.00-brightgreen?logo=python&logoColor=white)
+
 # HW2-Debugging
 
 ## Overview
